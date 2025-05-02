@@ -382,7 +382,7 @@ packages:
       path: "../konnek_flutter"
       relative: true
     source: path
-    version: "0.0.2"
+    version: "0.0.3"
   leak_tracker:
     dependency: transitive
     description:
