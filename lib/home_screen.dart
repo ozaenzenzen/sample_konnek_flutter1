@@ -36,26 +36,27 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return LiveChatSdkScreen.customFloatingWidget(
-      customFloatingWidget: Container(
-        padding: EdgeInsets.all(16),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(12),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black38,
-              offset: Offset(2, 2),
-              spreadRadius: 1,
-              blurRadius: 5,
-            ),
-          ],
-        ),
-        child: Image.asset(
-          Assets.icKonnek,
-          height: 40,
-        ),
-      ),
+    return LiveChatSdkScreen(
+    // return LiveChatSdkScreen.customFloatingWidget(
+      // customFloatingWidget: Container(
+      //   padding: EdgeInsets.all(16),
+      //   decoration: BoxDecoration(
+      //     color: Colors.white,
+      //     borderRadius: BorderRadius.circular(12),
+      //     boxShadow: [
+      //       BoxShadow(
+      //         color: Colors.black38,
+      //         offset: Offset(2, 2),
+      //         spreadRadius: 1,
+      //         blurRadius: 5,
+      //       ),
+      //     ],
+      //   ),
+      //   child: Image.asset(
+      //     Assets.icKonnek,
+      //     height: 40,
+      //   ),
+      // ),
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
