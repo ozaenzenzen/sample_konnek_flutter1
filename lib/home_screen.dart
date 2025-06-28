@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/assets/assets.dart';
 import 'package:konnek_flutter/konnek_flutter.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -37,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return LiveChatSdkScreen(
-    // return LiveChatSdkScreen.customFloatingWidget(
+      // return LiveChatSdkScreen.customFloatingWidget(
       // customFloatingWidget: Container(
       //   padding: EdgeInsets.all(16),
       //   decoration: BoxDecoration(

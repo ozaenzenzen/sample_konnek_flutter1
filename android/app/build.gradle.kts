@@ -67,6 +67,25 @@ android {
             )
         }
     }
+
+    flavorDimensions += "flavors"
+    productFlavors {
+        create("flavors") {
+            dimension = "environment"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "-alpha"
+        }
+
+        create("staging") {
+            dimension = "flavors"
+            applicationIdSuffix = ".staging"
+            versionNameSuffix = "-beta"
+        }
+
+        create("production") {
+            dimension = "flavors"
+        }
+    }
 }
 
 flutter {
