@@ -70,8 +70,8 @@ android {
 
     flavorDimensions += "flavors"
     productFlavors {
-        create("flavors") {
-            dimension = "environment"
+        create("development") {
+            dimension = "flavors"
             applicationIdSuffix = ".dev"
             versionNameSuffix = "-alpha"
         }
